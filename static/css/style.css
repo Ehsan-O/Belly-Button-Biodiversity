@@ -1,0 +1,46 @@
+body {
+    background-image: url("../images/body_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+ 
+}
+
+
+.jumbotron {
+    background-image: url("../images/21917.tif");
+    background-size: 100% 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h1{
+    font-family:cursive;
+}
+
+#selDataset {
+    background-color: rgb(85, 84, 84);
+}
+
+.well, #sample-metadata {
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(18, 40, 75);
+    color: white;
+}
+
+h6 {font-size: 16px;}
+
+h3 {font-style: italic;}
+
+#selection, .panel-title, #selDataset {
+    font-size: 16px;
+}
+
+#main_par {
+    font-family :Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#top10, #wash, #bact-num {
+    font-size: 18px;
+}

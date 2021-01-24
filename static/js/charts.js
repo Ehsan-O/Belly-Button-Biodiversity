@@ -102,8 +102,8 @@ function buildCharts(sample) {
           color: 'blue'
         }
       },
-      yaxis: {tickprefix: "<b>", ticksuffix:" </br>"},
-      xaxis: {tickprefix: "<b>", ticksuffix:" </br>"},
+      yaxis: {tickprefix: "<b>", ticksuffix:"</b>"},
+      xaxis: {tickprefix: "<b>", ticksuffix:"</b>"},
       paper_bgcolor: '#c1e1f0',
       plot_bgcolor: '#dbffff'
 

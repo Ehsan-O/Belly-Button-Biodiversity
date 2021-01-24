@@ -126,9 +126,7 @@ function buildCharts(sample) {
         color: otuIds,
         colorscale: "Bluered"
       }
-    }
-
-    ];
+    }];
 
     // 2. Create the layout for the bubble chart.
     var bubbleLayout = {
@@ -155,10 +153,10 @@ function buildCharts(sample) {
       paper_bgcolor: '#c1e1f0',
       plot_bgcolor: '#ebffff'
     };
-    var config = {responsive: true}
+    var config = {responsive: true};
 
     // 3. Use Plotly to plot the data with the layout.
-    Plotly.newPlot('bubble', bubbleData, bubbleLayout, config)
+    Plotly.newPlot('bubble', bubbleData, bubbleLayout, config);
 
     // Deliverable 3
 
